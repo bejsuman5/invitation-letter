@@ -111,20 +111,9 @@ body {
     /* transform: rotateX(180deg); */
 }
 
-/* lid open and close animation */
-.wrapper:hover .lid-one {
-    /* transition-delay: 0s;
-    transform: rotateX(90deg); */
-}
-
 .lid-one.active {
     transition-delay: 0s;
     transform: rotateX(90deg);
-}
-
-.wrapper:hover .lid-two {
-    /* transform: rotateX(180deg);
-    transition-delay: 0.25s; */
 }
 
 .lid-two.active {
