@@ -67,7 +67,7 @@ function typeWriter() {
     if (index < giftBoxText.length) {
         giftBoxTextTypingAnimation.textContent += giftBoxText.charAt(index);
         index++;
-        typingTimeout = setTimeout(typeWriter, 120); // Adjust the typing speed here (milliseconds)
+        typingTimeout = setTimeout(typeWriter, 150); // Adjust the typing speed here (milliseconds)
     } else {
         // giftBtn.classList.remove('active');
     }

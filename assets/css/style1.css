@@ -200,3 +200,21 @@ body {
     animation: none;
     top: 10px !important;
 }
+
+.blink-span {
+    font-family: "Tiro Bangla", serif;
+    border-right: 2px solid black;
+    padding-right: 5px;
+    animation: blink-caret .50s step-end infinite;
+}
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: black;
+    }
+}
